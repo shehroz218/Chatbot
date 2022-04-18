@@ -4,5 +4,3 @@ SpeechRecognition
 tensorflow
 nltk
 streamlit
-alsa-oss
-alsa-utils
