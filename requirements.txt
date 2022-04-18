@@ -1,0 +1,7 @@
+gtts
+BytesIO
+pygame
+speech_recognition as sr
+tensorflow
+import nltk
+streamlit
