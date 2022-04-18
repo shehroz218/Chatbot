@@ -3,5 +3,5 @@ BytesIO
 pygame
 speech_recognition
 tensorflow
-import nltk
+nltk
 streamlit
