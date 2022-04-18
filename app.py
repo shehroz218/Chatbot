@@ -1,9 +1,9 @@
 #Essentials
-import pandas as pd
+
 import numpy as np
 import random
 import json
-import matplotlib.pyplot as plt
+
 import pickle
 # Speech to text and text to speech
 from gtts import gTTS
@@ -11,7 +11,7 @@ from io import BytesIO
 import pygame
 import speech_recognition as sr
 # Deep Learning
-import tflearn
+
 import tensorflow as tf
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
