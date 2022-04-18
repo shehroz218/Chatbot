@@ -1,6 +1,6 @@
 gtts
 pygame
-speech_recognition
+SpeechRecognition
 tensorflow
 nltk
 streamlit
