@@ -1,7 +1,7 @@
 gtts
 BytesIO
 pygame
-speech_recognition as sr
+speech_recognition
 tensorflow
 import nltk
 streamlit
