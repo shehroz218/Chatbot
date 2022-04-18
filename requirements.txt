@@ -4,4 +4,4 @@ SpeechRecognition
 tensorflow
 nltk
 streamlit
-keras-ding
+
