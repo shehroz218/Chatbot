@@ -1,5 +1,4 @@
 gtts
-io
 pygame
 speech_recognition
 tensorflow
