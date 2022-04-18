@@ -18,6 +18,7 @@ from nltk.stem.lancaster import LancasterStemmer
 #Dashboard and Deployment
 import streamlit as st
 
+nltk.download('punkt')
 st.header('Talk With Danny')
 
 
@@ -95,7 +96,6 @@ def chat():
         pygame.mixer.init()
         pygame.mixer.music.load(sound, 'mp3')
         pygame.mixer.music.play()
-        
     except:
         st.audio(sound)
         
