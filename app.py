@@ -1,5 +1,5 @@
 #Essentials
-
+import pandas as pd
 import numpy as np
 import random
 import json
@@ -65,8 +65,7 @@ def speak(text, language='en'):
     tts =gTTS(text, lang=language)
     tts.write_to_fp(mp3_fo)
     return mp3_fo
-pygame.init()
-pygame.mixer.init()
+
 
 
 def chat():
@@ -91,9 +90,16 @@ def chat():
     st.write(f'Danny: {out}')
     
     sound=speak(out)
-    pygame.mixer.music.load(sound, 'mp3')
-    pygame.mixer.music.play()
-    st.session_state['text']=''
+    try:
+        pygame.init()
+        pygame.mixer.init()
+        pygame.mixer.music.load(sound, 'mp3')
+        pygame.mixer.music.play()
+        
+    except:
+        st.audio(sound)
+        
+    # st.session_state['text']=''
 chat()
 
 
